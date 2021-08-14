@@ -12,7 +12,7 @@ const pool = new Pool({
 console.log(process.env.DATABASE_URL)
 console.log(connectionString);
 console.log(isProduction);
-console.log(pool.ssl)
+console.log(pool)
 module.exports = {
     port: parseInt(process.env.PORT, 10),
     pool
